@@ -1593,12 +1593,16 @@ function showName() {
 let flagCurrent = currentFlag.name;
 const getButton = document.getElementById("showBtn");
 getButton.innerText = flagCurrent;
+const getInput = document.getElementById("answerInput");
+getInput.focus();
 }
 
 function buttonToDefault() {
 const showButton = document.getElementById("showBtn");
 let defaultButton = "Auflösen";
 showButton.innerText = defaultButton;
+const getInput = document.getElementById("answerInput");
+getInput.focus();
 }
 
 function normalize(str) {
