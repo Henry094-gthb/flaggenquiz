@@ -2153,9 +2153,9 @@ divisionMain.hidden = !divisionMain.hidden;
 
 
     right = 0;
+document.getElementById("right").innerText = right;
     wrong = 0;
-    wrongSkip = 1;
-    addToRight = 1;
+document.getElementById("wrong").innerText = wrong;
 }
 
 document.getElementById("menuBtn").addEventListener("click", backToMenu);
@@ -2170,7 +2170,6 @@ document.getElementById("scoreBtn").addEventListener("click",toggleScore);
 document.getElementById("scoreBtn").addEventListener("click",inputAim);
 document.getElementById("startGameBtn").addEventListener("click",startGame);
 
-pickRandomFlag()
 </script>
 
 </body>
